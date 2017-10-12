@@ -6,7 +6,7 @@ from yowsup.layers.network import YowNetworkLayer
 
 CREDENTIALS = ("SUBNUMBER", "password")
 
-class YowsupEchoStack(object):
+class WhatsappInsult(object):
     def __init__(self, credentials = None, encryptionEnabled = True):
         stackBuilder = YowStackBuilder()
 
@@ -25,4 +25,4 @@ class YowsupEchoStack(object):
             print("Authentication Error: %s" % e.message)
 
 if __name__ ==  "__main__":
-    YowsupEchoStack().start()   
+    WhatsappInsult().start()
